@@ -1,0 +1,30 @@
+{
+  "name": "bitlane/prestashop",
+  "description": "Bitlane search for PrestaShop 8 and 9: your catalogue in sync with Bitlane in every language, and its search widget in your shop.",
+  "type": "prestashop-module",
+  "license": "proprietary",
+  "homepage": "https://bitlane.co/integrations/prestashop",
+  "keywords": [
+    "prestashop",
+    "search",
+    "meilisearch",
+    "bitlane"
+  ],
+  "authors": [
+    {
+      "name": "Bitlane",
+      "homepage": "https://bitlane.co"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/bitlane-co/prestashop/issues",
+    "source": "https://github.com/bitlane-co/prestashop"
+  },
+  "require": {
+    "php": ">=8.1",
+    "composer/installers": "^2.0"
+  },
+  "extra": {
+    "installer-name": "bitlane"
+  }
+}

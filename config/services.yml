@@ -1,0 +1,18 @@
+# The module's console commands (php bin/console bitlane:…), the same on
+# PrestaShop 8 and 9. Nothing else of the module is a Symfony service
+# (docs/prestashop-plan.md PS1).
+services:
+  _defaults:
+    public: false
+
+  Bitlane\PrestaShop\Command\RunCommand:
+    arguments: ['@prestashop.adapter.legacy_context_loader']
+    tags: [console.command]
+
+  Bitlane\PrestaShop\Command\StatusCommand:
+    arguments: ['@prestashop.adapter.legacy_context_loader']
+    tags: [console.command]
+
+  Bitlane\PrestaShop\Command\SyncCommand:
+    arguments: ['@prestashop.adapter.legacy_context_loader']
+    tags: [console.command]

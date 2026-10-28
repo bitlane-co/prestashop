@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/bitlane" source-language="en-US" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="f5bab184223d8b2ce2a197f1cc503a5f">
+        <source>Bitlane Search</source>
+        <target>Bitlane Search</target>
+      </trans-unit>
+      <trans-unit id="16b5bd61b34a1df0e8e289c42241313e">
+        <source>Fast search for your shop: connect to Bitlane, sync your catalogue and add the search widget.</source>
+        <target>Ricerca veloce per il tuo negozio: collegalo a Bitlane, sincronizza il catalogo e aggiungi il widget di ricerca.</target>
+      </trans-unit>
+      <trans-unit id="ddefd49c73899cc75d6bb9cee0bbfaa8">
+        <source>Bitlane needs PHP 8.1 or newer.</source>
+        <target>Bitlane richiede PHP 8.1 o successivo.</target>
+      </trans-unit>
+      <trans-unit id="bf80233d3cec655b133702993065cc13">
+        <source>Connected to Bitlane.</source>
+        <target>Collegato a Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="a9afb8868ed93f0764b76237e71dea32">
+        <source>You do not have permission to do this.</source>
+        <target>Non hai i permessi per farlo.</target>
+      </trans-unit>
+      <trans-unit id="ed2c1fdbf0f539a0b2cfa465cb0412f4">
+        <source>Something went wrong. The details are in Advanced Parameters › Logs.</source>
+        <target>Qualcosa è andato storto. I dettagli sono in Parametri avanzati › Log.</target>
+      </trans-unit>
+      <trans-unit id="5687df66b51898704f50aec663ef5021">
+        <source>Choose a shop first.</source>
+        <target>Scegli prima un negozio.</target>
+      </trans-unit>
+      <trans-unit id="3376e00e0e55f5c9e4f667c9e7dd096a">
+        <source>The Bitlane screen needs JavaScript.</source>
+        <target>La schermata di Bitlane richiede JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="73ce20ba1785e02bf10ae1baab3adb97">
+        <source>Bitlane ended this shop’s connection. Connect again to keep searching.</source>
+        <target>Bitlane ha chiuso la connessione di questo negozio. Collegalo di nuovo per continuare a cercare.</target>
+      </trans-unit>
+      <trans-unit id="2079601b014e27487ced7a8b33f393a3">
+        <source>Bitlane could not do that. Try again in a moment.</source>
+        <target>Bitlane non è riuscito a farlo. Riprova tra poco.</target>
+      </trans-unit>
+      <trans-unit id="b19cb7a93d6514f3d2319d7683454779">
+        <source>The connection request expired or came from elsewhere. Click Connect again.</source>
+        <target>La richiesta di connessione è scaduta o viene da altrove. Fai di nuovo clic su Collega.</target>
+      </trans-unit>
+      <trans-unit id="c26645035a41c51e68b4d77bc0d8240f">
+        <source>The connection was declined in Bitlane.</source>
+        <target>La connessione è stata rifiutata in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="9b4dbbc110bd0a2a250bca8ac9ae138f">
+        <source>The answer did not come from Bitlane.</source>
+        <target>La risposta non viene da Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="410c48edaf822e6b4e26b8f8461a2fe9">
+        <source>Bitlane sent no authorization code.</source>
+        <target>Bitlane non ha inviato alcun codice di autorizzazione.</target>
+      </trans-unit>
+      <trans-unit id="1c7c165a99e6c2f513f40ce473e62b96">
+        <source>This shop isn’t connected to Bitlane.</source>
+        <target>Questo negozio non è collegato a Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="a7853ef94311eaf2db9161931119a833">
+        <source>Bitlane does not accept new connections right now.</source>
+        <target>Al momento Bitlane non accetta nuove connessioni.</target>
+      </trans-unit>
+      <trans-unit id="dc65c441bb8471be47e4e96650245167">
+        <source>Bitlane for PrestaShop (%host%)</source>
+        <target>Bitlane per PrestaShop (%host%)</target>
+      </trans-unit>
+      <trans-unit id="44be637b59d005c42e2571a6c298bbbf">
+        <source>Bitlane refused to register this shop.</source>
+        <target>Bitlane ha rifiutato di registrare questo negozio.</target>
+      </trans-unit>
+      <trans-unit id="79645d189a3d09c38c1205414119fced">
+        <source>Bitlane refused the connection.</source>
+        <target>Bitlane ha rifiutato la connessione.</target>
+      </trans-unit>
+      <trans-unit id="2079193459fe4ac1ee9334cc6c2789e1">
+        <source>Connect the shop to Bitlane first.</source>
+        <target>Collega prima il negozio a Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="8465b383a603c481fa835ad367e2ca6d">
+        <source>Choose at least one kind of content to search.</source>
+        <target>Scegli almeno un tipo di contenuto da cercare.</target>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131">
+        <source>Products</source>
+        <target>Prodotti</target>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categorie</target>
+      </trans-unit>
+      <trans-unit id="453aceb005ceaf54a47da15fee8b2a26">
+        <source>Pages</source>
+        <target>Pagine</target>
+      </trans-unit>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097">
+        <source>Brands</source>
+        <target>Marche</target>
+      </trans-unit>
+      <trans-unit id="821b8ee6937cec96c30fdafbfe836d68">
+        <source>Stores</source>
+        <target>Negozi</target>
+      </trans-unit>
+      <trans-unit id="3601146c4e948c32b6424d2c0a7f0118">
+        <source>Price</source>
+        <target>Prezzo</target>
+      </trans-unit>
+      <trans-unit id="faeaec9eda6bc4c8cb6e1a9156a858be">
+        <source>Availability</source>
+        <target>Disponibilità</target>
+      </trans-unit>
+      <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873">
+        <source>Category</source>
+        <target>Categoria</target>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9">
+        <source>Brand</source>
+        <target>Marca</target>
+      </trans-unit>
+      <trans-unit id="79e48ca19eefe7806fbaf27df903e8d5">
+        <source>Page category</source>
+        <target>Categoria della pagina</target>
+      </trans-unit>
+      <trans-unit id="ad24ffca4f9e9c0c7e80fe1512df6db9">
+        <source>Relevance</source>
+        <target>Rilevanza</target>
+      </trans-unit>
+      <trans-unit id="ac71d8452c267207bcf9f1c93c6419e8">
+        <source>Newest</source>
+        <target>Più recenti</target>
+      </trans-unit>
+      <trans-unit id="4df211924b23a31142bb7a6ac9a33832">
+        <source>Oldest</source>
+        <target>Meno recenti</target>
+      </trans-unit>
+      <trans-unit id="41bdf5037622e9965944a98c52d7fce8">
+        <source>Name: A to Z</source>
+        <target>Nome: dalla A alla Z</target>
+      </trans-unit>
+      <trans-unit id="9852361b414bae93a0001db9def6d73b">
+        <source>Price: low to high</source>
+        <target>Prezzo: dal più basso</target>
+      </trans-unit>
+      <trans-unit id="fda1bbb2d724e162b8f35d7dc78bd558">
+        <source>Price: high to low</source>
+        <target>Prezzo: dal più alto</target>
+      </trans-unit>
+      <trans-unit id="6dd1c650280fe606243d60a1c9857e76">
+        <source>Best selling</source>
+        <target>Più venduti</target>
+      </trans-unit>
+      <trans-unit id="35c786dea2696929f41daa4feb097523">
+        <source>Top rated</source>
+        <target>Più votati</target>
+      </trans-unit>
+      <trans-unit id="93a02e24c6b905c3bce7e9c02b01e561">
+        <source>Bitlane</source>
+        <target>Bitlane</target>
+      </trans-unit>
+      <trans-unit id="fedb2b0b0e891f62b5bf917b54c3322f">
+        <source>Open in Bitlane</source>
+        <target>Apri in Bitlane</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Salva</target>
+      </trans-unit>
+      <trans-unit id="3fe64905f77744ad1c06488dcadca802">
+        <source>Save and set up</source>
+        <target>Salva e configura</target>
+      </trans-unit>
+      <trans-unit id="3b878279a04dc47d60932cb294d96259">
+        <source>Overview</source>
+        <target>Panoramica</target>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Ricerca</target>
+      </trans-unit>
+      <trans-unit id="c2cc7082a89c1ad6631a2f66af5f00c0">
+        <source>Connection</source>
+        <target>Connessione</target>
+      </trans-unit>
+      <trans-unit id="5f02f05c744a0f875aebb8625ae1486f">
+        <source>Loading…</source>
+        <target>Caricamento…</target>
+      </trans-unit>
+      <trans-unit id="bb4fbbe248529089e553cb9af2fe3d50">
+        <source>Bitlane could not be reached. Try again in a moment.</source>
+        <target>Impossibile raggiungere Bitlane. Riprova tra poco.</target>
+      </trans-unit>
+      <trans-unit id="cbb934c312208a1df2c309e76ef1bdb7">
+        <source>Bitlane ended this shop’s connection, so its search stopped updating. Connect again to resume.</source>
+        <target>Bitlane ha chiuso la connessione di questo negozio, quindi la ricerca non si aggiorna più. Collegalo di nuovo per riprendere.</target>
+      </trans-unit>
+      <trans-unit id="b4eaa2108e7150d9ee21e4c772813f3a">
+        <source>Connect your shop to Bitlane</source>
+        <target>Collega il tuo negozio a Bitlane</target>
+      </trans-unit>
+      <trans-unit id="a91803c5e2f26ea3b4c0344a127da298">
+        <source>You’ll sign in to Bitlane (or create an account) and allow this shop to use it. Bitlane then sets up:</source>
+        <target>Accederai a Bitlane (o creerai un account) e consentirai a questo negozio di usarlo. Bitlane poi configura:</target>
+      </trans-unit>
+      <trans-unit id="80982d6f2d8c4dca9b1a5d3c04b99254">
+        <source>an engine, or one your project already has</source>
+        <target>un engine, o uno che il tuo progetto ha già</target>
+      </trans-unit>
+      <trans-unit id="17f471eb7a58c977141f8870d762ea29">
+        <source>indexes for your catalogue in %languages%</source>
+        <target>indici per il tuo catalogo in %languages%</target>
+      </trans-unit>
+      <trans-unit id="76bb3685882fad8f3fbc14d9cacb4ac8">
+        <source>a search widget for your storefront</source>
+        <target>un widget di ricerca per il tuo negozio</target>
+      </trans-unit>
+      <trans-unit id="6eb76e43d4315034f2fac71a00e12652">
+        <source>keys that only reach this shop’s indexes</source>
+        <target>chiavi che raggiungono solo gli indici di questo negozio</target>
+      </trans-unit>
+      <trans-unit id="a2c37b7a75c35e22151fe49a5dc34739">
+        <source>Connect to Bitlane</source>
+        <target>Collega a Bitlane</target>
+      </trans-unit>
+      <trans-unit id="31ed02b291d968c21903de25de9aaa5a">
+        <source>Choose a project</source>
+        <target>Scegli un progetto</target>
+      </trans-unit>
+      <trans-unit id="9645f62d49408bb30c66e216300f7468">
+        <source>Bitlane project for this shop</source>
+        <target>Progetto Bitlane per questo negozio</target>
+      </trans-unit>
+      <trans-unit id="a0bfb8e59e6c13fc8d990781f77694fe">
+        <source>Continue</source>
+        <target>Continua</target>
+      </trans-unit>
+      <trans-unit id="d52638d250a7df62287cfbad47fefc9b">
+        <source>Choose a shop</source>
+        <target>Scegli un negozio</target>
+      </trans-unit>
+      <trans-unit id="e2f5a4036bf60bad6e911c5d8e624e64">
+        <source>Each shop is connected and set up on its own: pick the one to work on.</source>
+        <target>Ogni negozio si collega e si configura a parte: scegli quello su cui lavorare.</target>
+      </trans-unit>
+      <trans-unit id="2ec0d16e4ca169baedb9b2d50ec5c6d7">
+        <source>Connected</source>
+        <target>Collegato</target>
+      </trans-unit>
+      <trans-unit id="7b277018e43d41bc445731092b91547d">
+        <source>Not connected</source>
+        <target>Non collegato</target>
+      </trans-unit>
+      <trans-unit id="c550ee824967bc436f44d06626836b46">
+        <source>Setting up</source>
+        <target>Configurazione in corso</target>
+      </trans-unit>
+      <trans-unit id="b6f97686e5b477ebb4393ca1270129e3">
+        <source>Bitlane is creating the engine, indexes, keys and search widget. A new engine takes a minute or two.</source>
+        <target>Bitlane sta creando l’engine, gli indici, le chiavi e il widget di ricerca. Un nuovo engine richiede un paio di minuti.</target>
+      </trans-unit>
+      <trans-unit id="80902f513b10c58fb05182f2266dd419">
+        <source>Bitlane could not set this shop up.</source>
+        <target>Bitlane non è riuscito a configurare questo negozio.</target>
+      </trans-unit>
+      <trans-unit id="7bfa30721c5e726ff17e3f972237a82c">
+        <source>Engine</source>
+        <target>Engine</target>
+      </trans-unit>
+      <trans-unit id="9f83f7e0d0e0afd3c078e44324795d3b">
+        <source>Saving moves the shop to this engine: its indexes are made there and filled again, and the current engine’s are deleted. Search has fewer results until the sync is done.</source>
+        <target>Salvando, il negozio passa a questo engine: i suoi indici vengono creati lì e riempiti di nuovo, e quelli dell'engine attuale vengono eliminati. La ricerca ha meno risultati finché la sincronizzazione non è finita.</target>
+      </trans-unit>
+      <trans-unit id="9332af3808c5768ba519a0df22a877e9">
+        <source>A new engine, or one your Bitlane project already has.</source>
+        <target>Un nuovo engine, o uno che il tuo progetto Bitlane ha già.</target>
+      </trans-unit>
+      <trans-unit id="b521207fc1f42cc1541ce5250cd4bf04">
+        <source>A new engine</source>
+        <target>Un nuovo engine</target>
+      </trans-unit>
+      <trans-unit id="220ba6fc66c96b95b6a060cfd339a7f0">
+        <source>Content to search</source>
+        <target>Contenuti da cercare</target>
+      </trans-unit>
+      <trans-unit id="85e2612fff90c2a1ce62e7ca6c7605bb">
+        <source>Each kind gets its own index, kept up to date. Shoppers find those in the search widget in one list of results; the others are for your own use.</source>
+        <target>Ogni tipo ha il suo indice, sempre aggiornato. I clienti trovano quelli nel widget di ricerca in un’unica lista di risultati; gli altri sono per il tuo uso.</target>
+      </trans-unit>
+      <trans-unit id="6cb78cba9429a9b079c127716ebf2f00">
+        <source>%label% (%count%)</source>
+        <target>%label% (%count%)</target>
+      </trans-unit>
+      <trans-unit id="f47d657aebd4d2db29898be8e9b8c0b5">
+        <source>In the search widget</source>
+        <target>Nel widget di ricerca</target>
+      </trans-unit>
+      <trans-unit id="3a08e2e340ab29fd9263af48193cbf8e">
+        <source>Languages</source>
+        <target>Lingue</target>
+      </trans-unit>
+      <trans-unit id="7bbbb1bf5fe73c1935aff89e72a50560">
+        <source>Each of the shop’s languages gets its own indexes, and the widget searches the one of the page. A language you add later is added on its own.</source>
+        <target>Ogni lingua del negozio ha i suoi indici, e il widget cerca in quella della pagina. Una lingua aggiunta in seguito si aggiunge da sola.</target>
+      </trans-unit>
+      <trans-unit id="f3f43e30c8c7d78c6ac0173515e57a00">
+        <source>Filters</source>
+        <target>Filtri</target>
+      </trans-unit>
+      <trans-unit id="f476116f8dfcd25d485bcf6fe9bc5b8b">
+        <source>What shoppers can narrow the results by, in the order they show.</source>
+        <target>Con cosa i clienti possono restringere i risultati, nell’ordine in cui compaiono.</target>
+      </trans-unit>
+      <trans-unit id="2808a34767e19b842d906ab8ab6264c6">
+        <source>Sorting</source>
+        <target>Ordinamento</target>
+      </trans-unit>
+      <trans-unit id="e137cf655a231cd0163cbc3e7b4d1955">
+        <source>The choices shoppers can sort the results by, in the order they show. Change them later in Bitlane’s widget designer.</source>
+        <target>Le scelte con cui i clienti possono ordinare i risultati, nell’ordine in cui compaiono. Puoi cambiarle in seguito nell’editor del widget di Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="74ae24f7d7a6acfe2b4f9dae2cf0a72a">
+        <source>Drag to change the order</source>
+        <target>Trascina per cambiare l’ordine</target>
+      </trans-unit>
+      <trans-unit id="101ca77dec0df7d2f721467aef2a03d8">
+        <source>Products with combinations</source>
+        <target>Prodotti con combinazioni</target>
+      </trans-unit>
+      <trans-unit id="ad7cefa024fa74eeedf328f778f5ae03">
+        <source>One result per combination (recommended)</source>
+        <target>Un risultato per combinazione (consigliato)</target>
+      </trans-unit>
+      <trans-unit id="00b8941302aa0aea12f055d48dbc2452">
+        <source>Color, size and stock filter exactly: “red, XL, in stock” finds only products with a red XL in stock. Each combination counts as a record in your plan.</source>
+        <target>Colore, taglia e disponibilità filtrano con precisione: “rosso, XL, disponibile” trova solo prodotti con una XL rossa disponibile. Ogni combinazione conta come un record del tuo piano.</target>
+      </trans-unit>
+      <trans-unit id="de340097e700d50acf28d68c94762c4e">
+        <source>One result per product</source>
+        <target>Un risultato per prodotto</target>
+      </trans-unit>
+      <trans-unit id="7dfa9be47d6840d01e0abda715a06ee1">
+        <source>Fewer records, but filters combine combinations: a red S and a blue XL match “red, XL”, and stock is the product’s.</source>
+        <target>Meno record, ma i filtri uniscono le combinazioni: una S rossa e una XL blu corrispondono a “rosso, XL”, e la disponibilità è quella del prodotto.</target>
+      </trans-unit>
+      <trans-unit id="746e8230c595a20623a5aafd4414de38">
+        <source>Brand color</source>
+        <target>Colore del brand</target>
+      </trans-unit>
+      <trans-unit id="aff379b9dac0be25c7ded8bc5763103b">
+        <source>The search widget’s buttons and highlights. Bitlane uses it for a new widget; after that, change the colors in Bitlane.</source>
+        <target>I pulsanti e le evidenziazioni del widget di ricerca. Bitlane lo usa per un nuovo widget; poi cambia i colori in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="510b5f98702fea67b19972e08bff8a99">
+        <source>No color</source>
+        <target>Nessun colore</target>
+      </trans-unit>
+      <trans-unit id="8c2857a9ad1d8f31659e35e904e20fa6">
+        <source>Logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="a81dd4d126ccce78cc274f88ebde07aa">
+        <source>Shown at the top of the search widget’s filters. Bitlane uses it for a widget without a logo; after that, change it in Bitlane.</source>
+        <target>Mostrato in cima ai filtri del widget di ricerca. Bitlane lo usa per un widget senza logo; poi cambialo in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="c75f506f7057fd5a36036e1fb9d22c16">
+        <source>Logo address</source>
+        <target>Indirizzo del logo</target>
+      </trans-unit>
+      <trans-unit id="5af9fed80e9fe05aabf7792ad78bf2e4">
+        <source>Use the shop’s logo</source>
+        <target>Usa il logo del negozio</target>
+      </trans-unit>
+      <trans-unit id="1063e38cb53d94d386f21227fcd84717">
+        <source>Remove</source>
+        <target>Rimuovi</target>
+      </trans-unit>
+      <trans-unit id="ce0b5550c7e245b4742d53a704cf882f">
+        <source>Search box</source>
+        <target>Casella di ricerca</target>
+      </trans-unit>
+      <trans-unit id="9da1170ea2d290cfb570b5b0ba75f3c5">
+        <source>CSS selectors for your theme’s search field and buttons, separated by commas: clicking one opens Bitlane’s search.</source>
+        <target>Selettori CSS del campo e dei pulsanti di ricerca del tuo tema, separati da virgole: un clic su uno apre la ricerca di Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="9c1d9dab4b1db37f4d2ed894407c2506">
+        <source>Search widget</source>
+        <target>Widget di ricerca</target>
+      </trans-unit>
+      <trans-unit id="4ad44fa96add64621d2709793e2f7d32">
+        <source>The widget opens from your theme’s search box. Its look and texts are set in Bitlane.</source>
+        <target>Il widget si apre dalla casella di ricerca del tuo tema. Aspetto e testi si impostano in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="73084074785a2153b3beda90ffd13e55">
+        <source>%content% in %languages%</source>
+        <target>%content% in %languages%</target>
+      </trans-unit>
+      <trans-unit id="c3bf447eabe632720a3aa1a7ce401274">
+        <source>Open</source>
+        <target>Apri</target>
+      </trans-unit>
+      <trans-unit id="b61d8b2fb87fa20bbd2ee212b2ca582d">
+        <source>Engines</source>
+        <target>Engine</target>
+      </trans-unit>
+      <trans-unit id="406c48b647ded01f654e94d2e455b7aa">
+        <source>Where your catalogue is searched: an index per kind of content and language.</source>
+        <target>Dove si cerca nel tuo catalogo: un indice per tipo di contenuto e lingua.</target>
+      </trans-unit>
+      <trans-unit id="acebac0299765675b6441b046e4534f9">
+        <source>Open engine</source>
+        <target>Apri engine</target>
+      </trans-unit>
+      <trans-unit id="735e4637f5cc531596e75f7ed4b9b7bd">
+        <source>No indexes yet.</source>
+        <target>Ancora nessun indice.</target>
+      </trans-unit>
+      <trans-unit id="9643352c32a74127daf18276d1827fc6">
+        <source>%name% (%url%) is connected to Bitlane.</source>
+        <target>%name% (%url%) è collegato a Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="3d30e8be17f054a2d53fcce46ae0a276">
+        <source>Disconnect this shop from Bitlane? Its search stops updating; the engine and indexes stay in Bitlane.</source>
+        <target>Scollegare questo negozio da Bitlane? La sua ricerca smette di aggiornarsi; l’engine e gli indici restano in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="42ae25231906c83927831e0ef7c317ac">
+        <source>Disconnect</source>
+        <target>Scollega</target>
+      </trans-unit>
+      <trans-unit id="4d3d769b812b6faa6b76e1a8abaece2d">
+        <source>Active</source>
+        <target>Attivo</target>
+      </trans-unit>
+      <trans-unit id="f03ab16cd58372c77ba45a3d9a5a1cb9">
+        <source>Draft</source>
+        <target>Bozza</target>
+      </trans-unit>
+      <trans-unit id="5bda814c4aedb126839228f1a3d92f09">
+        <source>Running</source>
+        <target>In esecuzione</target>
+      </trans-unit>
+      <trans-unit id="c2efe4bbd13e6cb0db293e72884273c0">
+        <source>Starting</source>
+        <target>In avvio</target>
+      </trans-unit>
+      <trans-unit id="6909beea5b50605780e3411f879fe916">
+        <source>Updating</source>
+        <target>In aggiornamento</target>
+      </trans-unit>
+      <trans-unit id="defe967ad0373b2274fc298f19125ca7">
+        <source>Moving</source>
+        <target>In spostamento</target>
+      </trans-unit>
+      <trans-unit id="d7c8c85bf79bbe1b7188497c32c3b0ca">
+        <source>Failed</source>
+        <target>Non riuscito</target>
+      </trans-unit>
+      <trans-unit id="ffbb410a55bb31f801dea6387e2745ac">
+        <source>Deleting</source>
+        <target>In eliminazione</target>
+      </trans-unit>
+      <trans-unit id="c23e2b09ebe6bf4cb5e2a9abe85c0be2">
+        <source>Stopped</source>
+        <target>Fermo</target>
+      </trans-unit>
+      <trans-unit id="f15c1cae7882448b3fb0404682e17e61">
+        <source>Content</source>
+        <target>Contenuti</target>
+      </trans-unit>
+      <trans-unit id="877be92b6e63cd8a5c2a77867975c13a">
+        <source>Each kind of content has its own index in each of the shop’s languages, kept up to date as it changes.</source>
+        <target>Ogni tipo di contenuto ha il suo indice in ogni lingua del negozio, aggiornato a ogni modifica.</target>
+      </trans-unit>
+      <trans-unit id="e06883190f0994586f761091026d5b25">
+        <source>Last error: %message% (%date%)</source>
+        <target>Ultimo errore: %message% (%date%)</target>
+      </trans-unit>
+      <trans-unit id="824537ef2f7c33c22c911fdafc573a85">
+        <source>Syncing: %done% of %total%</source>
+        <target>Sincronizzazione: %done% di %total%</target>
+      </trans-unit>
+      <trans-unit id="4b856d4f811a38bffa7d43eac2f3daba">
+        <source>Synced %date%</source>
+        <target>Sincronizzato il %date%</target>
+      </trans-unit>
+      <trans-unit id="0f3b7a4aec51c7b3c6b8cdef59760377">
+        <source>Not synced yet</source>
+        <target>Non ancora sincronizzato</target>
+      </trans-unit>
+      <trans-unit id="825447804244b63279a9f6040c2a360f">
+        <source>Not in the search widget</source>
+        <target>Non nel widget di ricerca</target>
+      </trans-unit>
+      <trans-unit id="45ada1a8b02e7bf10200aedcf56d13c8">
+        <source>Resync</source>
+        <target>Sincronizza di nuovo</target>
+      </trans-unit>
+      <trans-unit id="d57c64e20ea230f2380afc476d7c0b7d">
+        <source>Resync all</source>
+        <target>Sincronizza tutto di nuovo</target>
+      </trans-unit>
+      <trans-unit id="2f603d0d32afe6f77ddc6a0f04f07a57">
+        <source>Changes waiting to sync: %count%</source>
+        <target>Modifiche in attesa di sincronizzazione: %count%</target>
+      </trans-unit>
+      <trans-unit id="b3f5c1a0bc75f7993b9453ec900e2ebe">
+        <source>Background sync</source>
+        <target>Sincronizzazione in background</target>
+      </trans-unit>
+      <trans-unit id="be9e2719a694a334786e2a4c7a0c6f23">
+        <source>Changes reach Bitlane through a cron job that runs every minute. Add this line to the server’s crontab:</source>
+        <target>Le modifiche arrivano a Bitlane tramite un cron eseguito ogni minuto. Aggiungi questa riga al crontab del server:</target>
+      </trans-unit>
+      <trans-unit id="c091a791247245d0a9fbff1319fcb7f8">
+        <source>Changes have waited since %date%: check that the cron runs.</source>
+        <target>Le modifiche sono in attesa dal %date%: controlla che il cron venga eseguito.</target>
+      </trans-unit>
+      <trans-unit id="c9063daf22686c71ede59eeaafd6bd1a">
+        <source>The cron hasn’t run yet: changes wait until it does. While this page is open, it runs them.</source>
+        <target>Il cron non è ancora stato eseguito: le modifiche restano in attesa finché non parte. Finché questa pagina è aperta, le esegue lei.</target>
+      </trans-unit>
+      <trans-unit id="078cd2938dd0fed3c5289debe8759cb6">
+        <source>Without shell access, have your hosting panel or PrestaShop’s Cron tasks manager call this address every minute:</source>
+        <target>Senza accesso alla shell, fai chiamare questo indirizzo ogni minuto dal pannello del tuo hosting o dal modulo Gestore attività cron di PrestaShop:</target>
+      </trans-unit>
+      <trans-unit id="c2a084ed2d62a04c667ba4c5fe2b0595">
+        <source>Last run: %date%</source>
+        <target>Ultima esecuzione: %date%</target>
+      </trans-unit>
+      <trans-unit id="3bb85df05c39cc9c469bc04bdef1dc89">
+        <source>It hasn’t run yet.</source>
+        <target>Non è ancora stato eseguito.</target>
+      </trans-unit>
+      <trans-unit id="193cfc9be3b995831c6af2fea6650e60">
+        <source>Page</source>
+        <target>Pagina</target>
+      </trans-unit>
+      <trans-unit id="fdb0c388de01d545017cdf9ccf00eb72">
+        <source>Store</source>
+        <target>Negozio</target>
+      </trans-unit>
+      <trans-unit id="fcebe56087b9373f15514831184fa572">
+        <source>In stock</source>
+        <target>Disponibile</target>
+      </trans-unit>
+      <trans-unit id="bdd3f1e97760014483e852ca58e8f3c1">
+        <source>On backorder</source>
+        <target>Disponibile su ordinazione</target>
+      </trans-unit>
+      <trans-unit id="b55197a49e8c4cd8c314bc2aa39d6feb">
+        <source>Out of stock</source>
+        <target>Esaurito</target>
+      </trans-unit>
+      <trans-unit id="12ceff2290bb9039beaa8f36d5dec226">
+        <source>Jobs</source>
+        <target>Attività</target>
+      </trans-unit>
+      <trans-unit id="12e3507bc27748e17dce3f89a36d299c">
+        <source>What the sync has to do: changes, full syncs and the daily check. Failed jobs stay a week.</source>
+        <target>Cosa deve fare la sincronizzazione: modifiche, sincronizzazioni complete e il controllo giornaliero. Le attività non riuscite restano una settimana.</target>
+      </trans-unit>
+      <trans-unit id="aaabe1ad0fabdb0a1cc94abb2277c537">
+        <source>Run now</source>
+        <target>Esegui ora</target>
+      </trans-unit>
+      <trans-unit id="f009d85efdff130c0bf8c4ff246b0227">
+        <source>Waiting: %waiting% · Failed: %failed%</source>
+        <target>In attesa: %waiting% · Non riuscite: %failed%</target>
+      </trans-unit>
+      <trans-unit id="d19a34e2d9acee67e4bf8d69ec919291">
+        <source>Nothing to do: the sync is up to date.</source>
+        <target>Niente da fare: la sincronizzazione è aggiornata.</target>
+      </trans-unit>
+      <trans-unit id="46db1d337b8cf46e6d7036fcca329300">
+        <source>Error: %message%</source>
+        <target>Errore: %message%</target>
+      </trans-unit>
+      <trans-unit id="6327b4e59f58137083214a1fec358855">
+        <source>Retry</source>
+        <target>Riprova</target>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Elimina</target>
+      </trans-unit>
+      <trans-unit id="6762116ee28b2cc6b1d748a1e0e3e1b5">
+        <source>Failed %date%</source>
+        <target>Non riuscita il %date%</target>
+      </trans-unit>
+      <trans-unit id="231eb134081d03f124bef3126d9c47da">
+        <source>Attempt %count%</source>
+        <target>Tentativo %count%</target>
+      </trans-unit>
+      <trans-unit id="5706de961fb376d701be6e7762d8b09c">
+        <source>Waiting</source>
+        <target>In attesa</target>
+      </trans-unit>
+      <trans-unit id="6d175c5a4d64acaddc31fccab6cad676">
+        <source>Scheduled: %date%</source>
+        <target>Programmata: %date%</target>
+      </trans-unit>
+      <trans-unit id="b021806f652378a356c0c2851ea29a6d">
+        <source>Sync %count% changed items: %source%</source>
+        <target>Sincronizza %count% elementi modificati: %source%</target>
+      </trans-unit>
+      <trans-unit id="0b8a21c14e7f34acca5d7b348060c099">
+        <source>Full sync: %source%</source>
+        <target>Sincronizzazione completa: %source%</target>
+      </trans-unit>
+      <trans-unit id="28d9ee7269ffba446a33b43942fe91e0">
+        <source>Start a full sync: %source%</source>
+        <target>Avvia una sincronizzazione completa: %source%</target>
+      </trans-unit>
+      <trans-unit id="7e310a3229aa8f74769206146aacbf99">
+        <source>Find the products of a changed %what% (#%id%)</source>
+        <target>Trova i prodotti da aggiornare: %what% #%id%</target>
+      </trans-unit>
+      <trans-unit id="9c0c93ff527a42384ee4e9d0a1417d52">
+        <source>Daily check</source>
+        <target>Controllo giornaliero</target>
+      </trans-unit>
+      <trans-unit id="a2277a82644e993ba766c6ee5df53abd">
+        <source>Check %source% in %language%</source>
+        <target>Controlla %source% in %language%</target>
+      </trans-unit>
+      <trans-unit id="c4ef352f74e502ef5e7bc98e6f4e493d">
+        <source>category</source>
+        <target>categoria</target>
+      </trans-unit>
+      <trans-unit id="8c4d3a946a1fcde2ded7e17651fd0ed7">
+        <source>brand</source>
+        <target>marca</target>
+      </trans-unit>
+      <trans-unit id="40b7e285023f2bf86063c142ba3913b6">
+        <source>attribute value</source>
+        <target>valore di attributo</target>
+      </trans-unit>
+      <trans-unit id="d2eb444e35c0a71f0a85df8194acb5b6">
+        <source>attribute</source>
+        <target>attributo</target>
+      </trans-unit>
+      <trans-unit id="518a4861e5be74863a6b65010bde3986">
+        <source>feature</source>
+        <target>caratteristica</target>
+      </trans-unit>
+      <trans-unit id="7463147f3c9c7873944f534fbebcefd4">
+        <source>feature value</source>
+        <target>valore di caratteristica</target>
+      </trans-unit>
+      <trans-unit id="aa5efea809f2bd00d00c732434b2ff71">
+        <source>Bitlane %version% is out: click Upgrade on Bitlane in Modules › Module Manager, or download it and upload it there. Your connection, settings and sync stay.</source>
+        <target>È uscito Bitlane %version%: fai clic su Aggiorna accanto a Bitlane in Moduli › Gestione moduli, oppure scaricalo e caricalo lì. Connessione, impostazioni e sincronizzazione restano.</target>
+      </trans-unit>
+      <trans-unit id="801ab24683a4a8c433c6eb40c48bcd9d">
+        <source>Download</source>
+        <target>Scarica</target>
+      </trans-unit>
+      <trans-unit id="e163992806eded7f975983d7853492a0">
+        <source>Refresh the storefront’s widget</source>
+        <target>Aggiorna il widget del negozio</target>
+      </trans-unit>
+      <trans-unit id="a5b9fbc1018c2db64935896ef095ea7f">
+        <source>Send an addition to a cart</source>
+        <target>Invia un'aggiunta al carrello</target>
+      </trans-unit>
+      <trans-unit id="ee621b9980e76e93992b0e18a67fb7ba">
+        <source>Send order #%id%</source>
+        <target>Invia l'ordine n. %id%</target>
+      </trans-unit>
+      <trans-unit id="e92c400f76224ffdb4090ae957be17cb">
+        <source>Send credit slip #%id%</source>
+        <target>Invia la nota di credito n. %id%</target>
+      </trans-unit>
+      <trans-unit id="fc716248736c8a70093f78493bc1ec3d">
+        <source>Send cancelled order #%id%</source>
+        <target>Invia l'ordine annullato n. %id%</target>
+      </trans-unit>
+      <trans-unit id="d72e7d6c7aefc6dc45bc09c016fe93cd">
+        <source>Send the shop’s address and name to Bitlane</source>
+        <target>Invia a Bitlane indirizzo e nome del negozio</target>
+      </trans-unit>
+      <trans-unit id="f0dca7e4eaedf573d4664be249845942">
+        <source>Storefront</source>
+        <target>Negozio</target>
+      </trans-unit>
+      <trans-unit id="96191a8f25f5249ac0deee74d2165f2e">
+        <source>The search opens from your shop’s search box on every page. Searches, clicks and orders are counted in Bitlane’s analytics.</source>
+        <target>La ricerca si apre dalla casella di ricerca del negozio su ogni pagina. Ricerche, clic e ordini sono conteggiati nelle statistiche di Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="793e827458675a68175d2e3c7b3693f1">
+        <source>No active widget yet: the search shows on your pages once one is active in Bitlane.</source>
+        <target>Ancora nessun widget attivo: la ricerca compare sulle pagine appena ne attivi uno in Bitlane.</target>
+      </trans-unit>
+      <trans-unit id="b12a2960f44ec78e6d7777146729512a">
+        <source>Show the search on the storefront</source>
+        <target>Mostra la ricerca nel negozio</target>
+      </trans-unit>
+      <trans-unit id="7c6057671af3646d16e2b0e55acf9808">
+        <source>Wait for cookie consent before counting visits</source>
+        <target>Attendi il consenso ai cookie prima di contare le visite</target>
+      </trans-unit>
+      <trans-unit id="8e37fdf61196311e31da75732a53ee4f">
+        <source>Searches still work. Counting starts once the visitor accepts statistics cookies in a banner that uses Google Consent Mode, or when your own script calls Bitlane.consent(true).</source>
+        <target>La ricerca funziona comunque. Il conteggio inizia quando il visitatore accetta i cookie statistici in un banner che usa Google Consent Mode, o quando un tuo script chiama Bitlane.consent(true).</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
